@@ -7,7 +7,7 @@
 runtime! syntax/ruby.vim
 unlet! b:current_syntax
 
-syntax keyword rspecGroupMethods context describe example it its let let\! it_should_behave_like shared_examples shared_examples_for subject it_behaves_like pending skip specify When Then Given Invariant feature scenario given given\!
+syntax keyword rspecGroupMethods context describe example it its let let\! it_should_behave_like shared_examples shared_examples_for subject it_behaves_like include_examples pending skip specify When Then Given Invariant feature scenario given given\!
 "highlight link rspecGroupMethods Statement
 highlight link rspecGroupMethods Identifier
 
@@ -33,7 +33,7 @@ syntax keyword rspecMatchers allow_mass_assignment_of allow_value ensure_exclusi
 syntax match rspecMatchers /\<\(be\|have\)_\w\+\>/
 highlight link rspecMatchers Function
 
-syntax keyword rspecMessageExpectation advise any_args any_number_of_times anything at_least at_most exactly expected_messages_received generate_error hash_including hash_not_including ignoring_args instance_of matches_at_least_count matches_at_most_count matches_exact_count matches_name_but_not_args negative_expectation_for never no_args once ordered similar_messages times twice verify_messages_received with
+syntax keyword rspecMessageExpectation advise any_args any_number_of_times anything at_least at_most exactly expected_messages_received generate_error hash_including hash_not_including ignoring_args instance_of kind_of matches_at_least_count matches_at_most_count matches_exact_count matches_name_but_not_args negative_expectation_for never no_args once ordered similar_messages times twice verify_messages_received with
 highlight link rspecMessageExpectation Function
 
 let b:current_syntax = 'rspec'
