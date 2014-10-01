@@ -29,7 +29,7 @@ syntax keyword rspecMatchers described_class is_expected be change eq eql equal 
 syntax keyword rspecMatchers embed_one embed_many belong_to validate_format_of validate_associated validate_exclusion_of validate_inclusion_of validate_length_of custom_validate accept_nested_attributes_for
 
 " shoulda matchers
-syntax keyword rspecMatchers allow_mass_assignment_of allow_value ensure_exclusion_of ensure_length_of have_secure_password validate_absence_of validate_acceptance_of validate_confirmation_of validate_numericality_of validate_presence_of validate_uniqueness_of
+syntax keyword rspecMatchers allow_mass_assignment_of allow_value ensure_exclusion_of ensure_length_of have_secure_password validate_absence_of validate_acceptance_of validate_confirmation_of validate_numericality_of validate_presence_of validate_uniqueness_of yield_control yield_with_no_args yield_with_arg yield_successive_args
 syntax match rspecMatchers /\<\(be\|have\)_\w\+\>/
 highlight link rspecMatchers Function
 
