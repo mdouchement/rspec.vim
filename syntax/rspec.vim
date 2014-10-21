@@ -23,7 +23,7 @@ highlight link rspecMockMethods Function
 syntax keyword rspecKeywords should should_not should_not_receive should_receive
 highlight link rspecKeywords Constant
 
-syntax keyword rspecMatchers and described_class is_expected be change eq eql equal errors_on exist expect expect_any_instance_of allow allow_any_instance_of receive have have_at_least have_at_most have_exactly include match matcher raise_error raise_exception respond_to satisfy throw_symbol from by to to_not not_to when wrap_expectation contain_exactly match_array or
+syntax keyword rspecMatchers and described_class is_expected be change eq eql equal errors_on exist expect expect_any_instance_of allow allow_any_instance_of receive have have_at_least have_at_most have_exactly include match matcher raise_error raise_exception respond_to satisfy throw_symbol from by to to_not not_to when wrap_expectation contain_exactly match_array or and_call_original
 
 " rspec-mongoid exclusive matchers
 syntax keyword rspecMatchers embed_one embed_many belong_to validate_format_of validate_associated validate_exclusion_of validate_inclusion_of validate_length_of custom_validate accept_nested_attributes_for
